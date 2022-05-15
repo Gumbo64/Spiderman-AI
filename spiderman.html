@@ -1,0 +1,28 @@
+<body>
+<style>
+    html, body {
+  margin:0px;
+}
+.container {
+  background:red;
+  height:100%;
+}
+</style>
+    <div id="container" width=100% height = 100%></div>
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("spiderman.swf");
+        // setInterval(function () {player.load("spiderman.swf");}, 10000);
+        // setInterval(function () {player.play()}, 500);
+    });
+</script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+
+</script>
+</body>
