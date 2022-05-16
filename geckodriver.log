@@ -90,3 +90,80 @@ JavaScript error: , line 0: InvalidStateError: Navigated away from page
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 [Parent 22808, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652692919904	geckodriver	INFO	Listening on 127.0.0.1:64147
+1652692923129	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64148" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile6wfgql"
+1652692923592	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile6wfgql\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64148/devtools/browser/ac6c9385-74d0-4b1f-91c7-60198564448e
+1652692925860	Marionette	INFO	Listening on port 64172
+Read port: 64172
+1652692925916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652693162033	geckodriver	INFO	Listening on 127.0.0.1:64349
+1652693165080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64350" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilevdzKTV"
+1652693165464	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilevdzKTV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64350/devtools/browser/6e43ac7f-c26e-4ac3-bba5-c3b0998aa8b9
+1652693167465	Marionette	INFO	Listening on port 64392
+Read port: 64392
+1652693167526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652693419064	Marionette	INFO	Stopped listening on port 64392
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652701278797	geckodriver	INFO	Listening on 127.0.0.1:54817
+1652701281867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54818" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilec6BaoF"
+1652701282262	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilec6BaoF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54818/devtools/browser/75eea8ba-8487-42b3-a955-1aeb65a7845b
+1652701284336	Marionette	INFO	Listening on port 54841
+Read port: 54841
+1652701284445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/UrlbarUtils.jsm, line 834: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEffectiveTLDService.getKnownPublicSuffixFromHost]
+JavaScript error: resource:///modules/UrlbarUtils.jsm, line 834: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEffectiveTLDService.getKnownPublicSuffixFromHost]
+JavaScript error: resource:///modules/UrlbarUtils.jsm, line 834: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEffectiveTLDService.getKnownPublicSuffixFromHost]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1652701392316	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1652701399781	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652702733973	Marionette	INFO	Stopped listening on port 54841
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652702865127	geckodriver	INFO	Listening on 127.0.0.1:49517
+1652702868193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49518" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileBGltDn"
+1652702868543	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileBGltDn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49518/devtools/browser/2e02583a-a50a-41ca-86dc-3e99d790761b
+1652702870383	Marionette	INFO	Listening on port 49539
+Read port: 49539
+1652702870423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: file:///j:/Github%20repos/Spiderman-AI/spiderman.html, line 27: ReferenceError: target is not defined
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652702881338	Marionette	INFO	Stopped listening on port 49539
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652705705343	geckodriver	INFO	Listening on 127.0.0.1:52921
