@@ -1,4 +1,5 @@
-<body>
+<!DOCTYPE html>
+<body id="bigbody">
 <style>
     html, body {
   margin:0px;
@@ -8,7 +9,33 @@
   height:100%;
 }
 </style>
-    <div id="gamers" width=100% height = 100%></div>
+<script>
+
+  function pausegame(){
+    let get_player = document.querySelector('#gamers > ruffle-player:nth-child(1)')
+    get_player.pause()
+    get_player.shadowRoot.getElementById("play_button").style.display = "none";
+  }
+  function playgame(){
+    let get_player = document.querySelector('#gamers > ruffle-player:nth-child(1)')
+    get_player.play()
+    get_player.shadowRoot.getElementById("play_button").style.display = "none";
+  }
+  function frameforward(){
+    playgame()
+    setTimeout(pausegame, 30);
+    console.log("Frame forward!")
+
+  }
+
+
+</script> 
+
+<div id="gamers" width=100% height = 100%></div>
+    <button id="pause" type="button" onclick="pausegame()">Pause</button>
+    <button id="play" type="button" onclick="playgame()">Play</button>
+    <button id="frameforward" type="button" onclick="frameforward()">Frame Forward</button>
+ 
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
@@ -19,24 +46,23 @@
         player.load("spiderman.swf");
 
 
-        
 
 
         // setInterval(function () {player.load("spiderman.swf");}, 10000);
-        setInterval(function () {
-          var canvas = document.querySelector("div#container canvas");
-          var evt = new MouseEvent("click", {
-              bubbles: true,
-              cancelable: true,
-              clientX: 150,
-              clientY: 150,
-              screenX: 150,
-              screenY: 150
-          });
-          console.log(player.dispatchEvent(evt))
-          console.log(canvas.dispatchEvent(evt))
-          console.log(evt)
-        }, 500);
+        // setInterval(function () {
+        //   var canvas = document.querySelector("#gamers > ruffle-player:nth-child(1)").shadowRoot.querySelector("#container > canvas:nth-child(3)");
+        //   var evt = new MouseEvent("click", {
+        //       bubbles: true,
+        //       cancelable: true,
+        //       clientX: 150,
+        //       clientY: 150,
+        //       screenX: 150,
+        //       screenY: 150
+        //   });
+        //   console.log(player.dispatchEvent(evt))
+        //   console.log(canvas.dispatchEvent(evt))
+        //   console.log(evt)
+        // }, 500);
     });
 </script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>

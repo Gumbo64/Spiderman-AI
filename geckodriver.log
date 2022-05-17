@@ -167,3 +167,1315 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundEr
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 1652705705343	geckodriver	INFO	Listening on 127.0.0.1:52921
+1652779078440	geckodriver	INFO	Listening on 127.0.0.1:64269
+1652779081556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64270" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileYf7aeh"
+1652779082081	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileYf7aeh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64270/devtools/browser/f3b6b320-9c7e-4b60-8f2c-945d653620ba
+1652779084272	Marionette	INFO	Listening on port 64295
+Read port: 64295
+1652779084378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652779184079	geckodriver	INFO	Listening on 127.0.0.1:64356
+1652779187156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileAwHMtf"
+1652779187473	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileAwHMtf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64357/devtools/browser/ff895691-1a14-4291-9627-05bc02de13b1
+1652779189508	Marionette	INFO	Listening on port 64382
+Read port: 64382
+1652779189648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652779233176	Marionette	INFO	Stopped listening on port 64382
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652779236187	geckodriver	INFO	Listening on 127.0.0.1:64414
+1652779239266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilekWEbHK"
+1652779239581	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilekWEbHK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64415/devtools/browser/b5da02b1-434a-4207-872c-fc265c7c75dc
+1652779241484	Marionette	INFO	Listening on port 64437
+Read port: 64437
+1652779241768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652779262309	geckodriver	INFO	Listening on 127.0.0.1:64467
+1652779265369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64468" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileunVlSo"
+1652779265673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileunVlSo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64468/devtools/browser/449e697a-caa7-4120-bb5e-bf0df7438db4
+1652779267730	Marionette	INFO	Listening on port 64492
+Read port: 64492
+1652779267847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652779306710	Marionette	INFO	Stopped listening on port 64492
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652779353625	geckodriver	INFO	Listening on 127.0.0.1:64572
+1652779356688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileESR1da"
+1652779356996	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileESR1da\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64573/devtools/browser/55fede57-3d16-4517-a3a0-3985a91e0b3e
+1652779358870	Marionette	INFO	Listening on port 64599
+Read port: 64599
+1652779358937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652779526515	geckodriver	INFO	Listening on 127.0.0.1:64721
+1652779529559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64722" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile3Pbdcf"
+1652779529886	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile3Pbdcf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64722/devtools/browser/382fdb71-4bfb-4bcb-98b5-aaff70f585d4
+1652779531864	Marionette	INFO	Listening on port 64745
+Read port: 64745
+1652779531930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652779534874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779553871	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779608346	geckodriver	INFO	Listening on 127.0.0.1:64787
+1652779611423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64788" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileeww1Ea"
+1652779611735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileeww1Ea\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64788/devtools/browser/5a34bcb9-0011-4f35-a42a-034fbc8f4be9
+1652779613564	Marionette	INFO	Listening on port 64816
+Read port: 64816
+1652779613667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652779688853	geckodriver	INFO	Listening on 127.0.0.1:64861
+1652779691922	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64862" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile8VppV9"
+1652779692235	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile8VppV9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64862/devtools/browser/e8b0ebc1-4e2b-4eaf-ac7f-08ac9bb3a192
+1652779694204	Marionette	INFO	Listening on port 64883
+Read port: 64883
+1652779694283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652779735672	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779738320	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779739642	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779742603	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779743902	geckodriver	INFO	Listening on 127.0.0.1:64930
+1652779746974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile0ZJI7U"
+1652779747284	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile0ZJI7U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64931/devtools/browser/4f57e92d-409b-4003-8be7-7bb7f58797ef
+1652779749211	Marionette	INFO	Listening on port 64954
+Read port: 64954
+1652779749308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652779750428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779751266	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779752468	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779754996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779756333	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779757651	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779762923	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779764269	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779765596	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779766912	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779768231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779769551	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779770885	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779772219	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779773533	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779774861	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779776197	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779777516	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779778852	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779780179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779781499	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779782821	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779783999	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779785318	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779786654	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779787979	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779789313	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779790645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779791982	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779793316	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779794642	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779795965	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779797288	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779798603	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779799927	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779801264	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779802416	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779803740	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779805077	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779806395	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779807729	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779809069	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779810388	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779811708	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779813027	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779814346	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779815682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779817003	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779818324	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779819648	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779820987	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779822329	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779823652	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779824978	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779826300	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779827621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779828948	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779830288	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779831602	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779832935	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779834268	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779835588	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779836907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779838265	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779839583	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779841845	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1652779844041	geckodriver	INFO	Listening on 127.0.0.1:65021
+1652779847113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65022" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilejoB2Ys"
+1652779847479	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilejoB2Ys\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65022/devtools/browser/2ae9c44f-76b8-4f70-9621-dfe44c05206c
+1652779849667	Marionette	INFO	Listening on port 65044
+Read port: 65044
+1652779849723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652780779876	Marionette	INFO	Stopped listening on port 65044
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652781057103	geckodriver	INFO	Listening on 127.0.0.1:60951
+1652781060167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60952" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilexTdiD7"
+1652781060480	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilexTdiD7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60952/devtools/browser/2555d924-8114-41d8-bf7d-01a27e374827
+1652781062401	Marionette	INFO	Listening on port 60974
+Read port: 60974
+1652781062534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+out of memory: 0x0000000000100000 bytes requested
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close w[Gith reasFX1-on]: Receive IPC close with reason=Abnor=Abnormamal
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=SHMEM_CREATED_MESSAGE) Channel error: cannot send/recv
+
+Shutdown
+lShutdown
+
+###!!! [Child][PCanvasManagerChild] Error: SendAndWait(msgname=PWebGL::Msg_GetFrontBuffer) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_InitPCanvasParent) Channel error: cannot send/recv
+
+
+###!!! [Child][PCanvasChild] Error: Send(msgname=PCanvas::Msg_InitTranslator) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PTextureConstructor) Channel error: cannot send/recv
+
+[GFX
+###!!! [Child][PCanvasManagerChild] Error: SendAndWait(msgname=PWebGL::Msg_GetFrontBufferSnapshot) Channel error: cannot send/recv
+
+1-]: Receive 
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_EmptyTransaction) Channel error: cannot send/recv
+
+IPC close with re
+###!!! [Child][PCanvasManagerChild] Error: Send(msgname=SHMEM_CREATED_MESSAGE) Channel error: cannot send/recv
+
+ason=AbnormalShutdown
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_SetDisplayList) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_SetFocusTarget) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+JavaScript warning: https://unpkg.com/@ruffle-rs/ruffle/core.ruffle.1d691580347605e7089e.js, line 1: Failed to allocate internal command buffer.
+JavaScript warning: https://unpkg.com/@ruffle-rs/ruffle/core.ruffle.1d691580347605e7089e.js, line 1: WebGL context was lost.
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config)
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+1652781674321	geckodriver	INFO	Listening on 127.0.0.1:57822
+1652781677406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57823" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile2TWiKq"
+1652781677710	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile2TWiKq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57823/devtools/browser/25f3303d-60d8-4974-ab79-7db3b8ce1405
+1652781679613	Marionette	INFO	Listening on port 57846
+Read port: 57846
+1652781679651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Failed to create Pbuffer surface error: 0x3003 Size : Size(687,500)
+WebGL(0000018B26906E00)::LoseContext(0)
+JavaScript warning: , line 0: WebGL warning: <Present>: Swap chain surface creation failed.
+JavaScript warning: , line 0: WebGL context was lost.
+JavaScript error: https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm, line 4229844: RuntimeError: unreachable executed
+[GFX1-]: Failed to link shader program: brush_image
+
+[2022-05-17T10:01:22Z ERROR webrender::device::gl] Failed to link shader program: brush_image
+    
+[GFX1-]: wr_renderer_render: Shader(Link("brush_image", ""))
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Fallback WR to SW-WR + D3D11
+1652781869479	geckodriver	INFO	Listening on 127.0.0.1:59385
+1652781872549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile94RQ26"
+1652781872860	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile94RQ26\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59386/devtools/browser/cc8cb189-5d12-4e0a-8021-9e90a3b8a857
+1652781874727	Marionette	INFO	Listening on port 59406
+Read port: 59406
+1652781874858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652782358530	geckodriver	INFO	Listening on 127.0.0.1:54788
+1652782361592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54789" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileGhwksM"
+1652782361950	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileGhwksM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54789/devtools/browser/4fffa37e-494a-4627-bf1f-c777178f4981
+1652782363817	Marionette	INFO	Listening on port 54813
+Read port: 54813
+1652782363856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+'https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm:1': wasm tier-2 failed with 'out of memory'.
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+'https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm:1': wasm tier-2 failed with 'out of memory'.
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652782436643	Marionette	INFO	Stopped listening on port 54813
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652782448205	geckodriver	INFO	Listening on 127.0.0.1:54863
+1652782451271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54864" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileLJaqAm"
+1652782451633	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileLJaqAm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54864/devtools/browser/bc3f4ed4-c6cc-4a4f-aa18-a2d2df18277c
+1652782453602	Marionette	INFO	Listening on port 53456
+Read port: 53456
+1652782453692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+'https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm:1': wasm tier-2 failed with 'out of memory'.
+JavaScript error: , line 0: InvalidStateError: Navigated awa1652782472543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53488" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile8T5505"
+1652782472865	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile8T5505\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53488/devtools/browser/54339bb3-82f6-4722-925f-a3927305956a
+1652782474652	Marionette	INFO	Listening on port 53509
+Read port: 53509
+1652782474779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+'https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm:1': wasm tier-2 failed with 'out of memory'.
+JavaScript error: , line 0: InvalidStateError: Navigated awa1652782496759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53541" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileAyR26k"
+1652782497110	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileAyR26k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53541/devtools/browser/1aaca72d-df25-412b-9d21-3657665ffe30
+1652782499001	Marionette	INFO	Listening on port 53565
+Read port: 53565
+1652782499068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Failed to create Pbuffer surface error: 0x3003 Size : Size(687,500)
+WebGL(000002159779F000)::LoseContext(0)
+JavaScript warning: , line 0: WebGL warning: <Present>: Swap chain surface creation failed.
+JavaScript warning: , line 0: WebGL context was lost.
+JavaScript error: https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm, line 4702648: RuntimeError: unreachable executed
+[GFX1-]: [D3D11] 2 CreateTexture2D failure Size: Size(687,500)texture11: false Code: 0x8007000e
+[GFX1-]: Failed to play canvas event type: 0
+[GFX1-]: Failed to play canvas event type: 45
+[GFX1-]: Failed to play canvas event type: 46
+[GFX1-]: Failed to play canvas event type: 54
+'https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.17/3ca577b52db5bd6a3fb0.wasm:1': wasm tier-2 failed with 'out of memory'.
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config)
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652782918498	Marionette	INFO	Stopped listening on port 53565
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652782926823	geckodriver	INFO	Listening on 127.0.0.1:55124
+1652782929887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilelYF10A"
+1652782930236	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilelYF10A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55125/devtools/browser/ee07eca9-fce5-4102-964b-81a9d348eedf
+1652782932199	Marionette	INFO	Listening on port 55145
+Read port: 55145
+1652782932280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: out of memory
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e Rect(x=524288, y=524800, w=1024, h=512)
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e Rect(x=525312, y=524800, w=559, h=512)
+out of memory: 0x0000000000100000 bytes requested
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_MapAndNotifyChildCreated) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_AdoptChild) Channel error: cannot send/recv
+
+]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PAPZInputBridgeChild] Error: SendAndWait(msgname=PAPZInputBridge::Msg_ReceiveMouseInputEvent) Channel error: cannot send/recv
+
+
+###!!! [Child][PAPZInputBridgeChild] Error: Send(msgname=PAPZInputBridge::Msg_UpdateWheelTransaction) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: IPC Channel is already torn down unexpectedly
+
+[GFX1-]: IPC Channel is already torn down unexpectedly
+
+JavaScript warning: , line 0: Failed to allocate internal command buffer.
+JavaScript warning: , line 0: WebGL context was lost.
+[GFX1-]: IPC Channel is already torn down unexpectedly
+
+[GFX1-]: IPC Channel is already torn down unexpectedly
+
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: wr_renderer_render: OutOfMemory
+out of memory: 0x0000000000100000 bytes requested
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PCompositorBridge::Msg_DidComposite) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PCompositorBridge::Msg_NotifyFrameStats) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PCompositorWidget::Msg_UnobserveVsync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: RunMessage(msgname=PGPU::Msg_AccumulateChildHistograms) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: RunMessage(msgname=PGPU::Msg_AccumulateChildKeyedHistograms) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: RunMessage(msgname=PGPU::Msg_RecordDiscardedData) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+1-]: Receive
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+ IPC close 
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+with 
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+reason=AbnormalShu[GtdoFX1-wn
+]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRender[GFX1-]: Receive IPC close wBridgeChild.
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+it
+h r
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+eason
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+=AbnormalShutdown
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_ShutdownSync) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PCompositorBridge::Msg_PWebRenderBridgeConstructor) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PWebRenderBridge::Msg_EnsureConnected) Channel error: cannot send/recv
+
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PWebRenderBridge::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: RunMessage(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: IPC Channel is already torn down unexpectedly
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Failed to create WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+out of memory: 0x0000000000000080 bytes requested
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1254
+#01: GIFFT_TimingDistributionCancel[C:\Program Files\Mozilla Firefox\xul.dll +0x45bd26c]
+#02: GIFFT_TimingDistributionCancel[C:\Program Files\Mozilla Firefox\xul.dll +0x45bd318]
+#03: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x1ccdbaa]
+#04: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x1ca8e6c]
+#05: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x135411e]
+#06: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x1ca0349]
+#07: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x1355091]
+#08: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x13555be]
+#09: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xc10592]
+#10: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xc10734]
+#11: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xbc5e0c]
+#12: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0xbc8bb3]
+#13: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x84b74d]
+#14: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x84bd79]
+#15: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x85db6b]
+#16: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x851ba1]
+#17: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x19c7bcd]
+#18: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x16d233d]
+#19: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x19f5b44]
+#20: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x9d8a1f]
+#21: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x1fffe]
+#22: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x185e18]
+#23: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x184d1f]
+#24: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x128879b]
+#25: workerlz4_compress[C:\Program Files\Mozilla Firefox\xul.dll +0x9d8a1f]
+#26: XRE_GetBootstrap[C:\Program Files\Mozilla Firefox\xul.dll +0x1fffe]
+#27: GIFFT_TimingDistributionStopAndAccumulate[C:\Program Files\Mozilla Firefox\xul.dll +0x12881f6]
+#28: GetNtLoaderAPI[C:\Program Files\Mozilla Firefox\firefox.exe +0xa5f9]
+#29: IsSandboxedProcess[C:\Program Files\Mozilla Firefox\firefox.exe +0x1cb68]
+#30: ???[C:\WINDOWS\System32\KERNEL32.DLL +0x17034]
+#31: ???[C:\WINDOWS\SYSTEM32\ntdll.dll +0x52651]
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Parent 35616, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:556
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2119: TypeError: subject.QueryInterface is not a function
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1652782954426	Marionette	INFO	Stopped listening on port 55145
+[Parent 35616, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 35616, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652783028170	geckodriver	INFO	Listening on 127.0.0.1:54899
+1652783031235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54900" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileTGMKUC"
+1652783031566	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileTGMKUC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54900/devtools/browser/1a8bb84d-19de-4791-b23d-379bb2f88975
+1652783033573	Marionette	INFO	Listening on port 54926
+Read port: 54926
+1652783033605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config)
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+WebGL(000002F1140A2000)::LoseContext(0)
+JavaScript warning: , line 0: WebGL warning: renderbufferStorage(Multisample)?: Unexpected error <enum 0x0505>
+JavaScript warning: , line 0: WebGL context was lost.
+console.error: "Error reading response to: getLayout\nout of memory"
+console.error: "out of memory"
+out of memory: 0x0000000000011000 bytes requested
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reaso[GFX1-n=AbnormalShutdown
+]: Receive IPC close with reason=AbnormalShutdown
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652783660555	Marionette	INFO	Stopped listening on port 54926
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652783676870	geckodriver	INFO	Listening on 127.0.0.1:50932
+1652783679954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofiley41DqN"
+1652783680290	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofiley41DqN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50933/devtools/browser/3014e652-d7fb-44b7-bd99-1804a6a07fd4
+1652783682107	Marionette	INFO	Listening on port 50957
+Read port: 50957
+1652783682215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652783727701	Marionette	INFO	Stopped listening on port 50957
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652783730948	geckodriver	INFO	Listening on 127.0.0.1:50994
+1652783734018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileX0FccN"
+1652783734322	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileX0FccN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50995/devtools/browser/0e6fd71a-6683-4f7e-83d7-a07c65062d50
+1652783736085	Marionette	INFO	Listening on port 51016
+Read port: 51016
+1652783736262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1652783754065	Marionette	INFO	Stopped listening on port 51016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652783759027	geckodriver	INFO	Listening on 127.0.0.1:51048
+1652783762086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileGiNiaB"
+1652783762390	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileGiNiaB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51049/devtools/browser/1d487e7c-158e-4747-af30-e57c40e2c896
+1652783764218	Marionette	INFO	Listening on port 51069
+Read port: 51069
+1652783764375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652783785927	geckodriver	INFO	Listening on 127.0.0.1:51099
+1652783788998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51100" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileqgu8BE"
+1652783789398	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileqgu8BE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51100/devtools/browser/41d1c87b-c954-446b-8829-76374175d6fb
+1652783791713	Marionette	INFO	Listening on port 51124
+Read port: 51124
+1652783791765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
