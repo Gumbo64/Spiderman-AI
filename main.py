@@ -3,6 +3,10 @@ import time
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+# print(dir_path)
 
 def click_coord(x,y):
     el=driver.find_element(By.ID,"bigbody")
@@ -18,8 +22,8 @@ def click_retry():
     click_coord(194,335)
 
 
-driver = webdriver.Firefox()
-driver.get("J:\Github repos\Spiderman-AI\spiderman.html")
+driver = webdriver.Firefox(executable_path="./geckodriver")
+driver.get("file:///home/rory/Desktop/Github%20repos/Spiderman-AI/spiderman.html")
 time.sleep(5)
 click_start()
 time.sleep(20)
