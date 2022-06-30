@@ -24,7 +24,6 @@
     <CheatEntry>
       <ID>5</ID>
       <Description>"Score"</Description>
-      <LastState Value="416" RealAddress="139E38317A0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Double</VariableType>
       <Address>"THREADSTACK0"-00000EE0</Address>
@@ -67,7 +66,6 @@
     <CheatEntry>
       <ID>8</ID>
       <Description>"New Score"</Description>
-      <LastState Value="416" RealAddress="139E38317A0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Double</VariableType>
       <Address>"ruffle.exe"+00A2DB08</Address>
