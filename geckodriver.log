@@ -2179,3 +2179,137 @@ JavaScript error: , line 0: InvalidStateError: Navigated away from page
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 [Parent 34032, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:725
+1653893067892	geckodriver	INFO	Listening on 127.0.0.1:49219
+1653893071013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49220" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilexGz7iP"
+1653893071434	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilexGz7iP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49220/devtools/browser/8aaa585f-74e1-4263-bfdf-f674878a1d48
+1653893073618	Marionette	INFO	Listening on port 49242
+Read port: 49242
+1653893073751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1653893116658	Marionette	INFO	Stopped listening on port 49242
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1653893119042	geckodriver	INFO	Listening on 127.0.0.1:49275
+1653893122120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49276" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile3qJH7r"
+1653893122421	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile3qJH7r\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49276/devtools/browser/1cce4e5b-7ba7-4e56-ab35-caf6f00663d3
+1653893124436	Marionette	INFO	Listening on port 49298
+Read port: 49298
+1653893124534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653893211868	geckodriver	INFO	Listening on 127.0.0.1:49357
+1653893214927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile42RsDa"
+1653893215247	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile42RsDa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49358/devtools/browser/10b7d3b7-bc0f-405f-a715-b86bffe574ee
+1653893217282	Marionette	INFO	Listening on port 49383
+Read port: 49383
+1653893217384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653894680066	Marionette	INFO	Stopped listening on port 49383
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 37656, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1653895054491	geckodriver	INFO	Listening on 127.0.0.1:51777
+1653895057540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileWydBZT"
+1653895057849	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileWydBZT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51778/devtools/browser/e70bea0b-6aa0-4640-84b6-2d0a042bb968
+1653895059801	Marionette	INFO	Listening on port 51801
+Read port: 51801
+1653895059927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1653895076980	Marionette	INFO	Stopped listening on port 51801
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653895077525	geckodriver	INFO	Listening on 127.0.0.1:51833
+1653895080593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51834" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilehSgLSR"
+1653895081016	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofilehSgLSR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51834/devtools/browser/86f97ea1-86e5-4a31-ae9f-ba4a26e3b72f
+1653895082943	Marionette	INFO	Listening on port 51855
+Read port: 51855
+1653895083087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource:///actors/DOMFullscreenParent.jsm, line 185: Error: TelemetryStopwatch: key "FULLSCREEN_CHANGE_MS" was already initialized
+JavaScript error: resource:///actors/DOMFullscreenParent.jsm, line 155: Error: TelemetryStopwatch: finishing nonexisting stopwatch. Histogram: "FULLSCREEN_CHANGE_MS", key: ""
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://unpkg.com/@ruffle-rs/ruffle, line 1: TypeError: Not in fullscreen mode
+[GFX1]: Failed to create Pbuffer surface error: 0x3003 Size : Size(687,500)
+WebGL(0000018BE38D2800)::LoseContext(0)
+JavaScript warning: , line 0: WebGL warning: <Present>: Swap chain surface creation failed.
+JavaScript warning: , line 0: WebGL context was lost.
+JavaScript error: https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2022.5.30/0d3c79f331e54b6385be.wasm, line 4053325: RuntimeError: unreachable executed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn1.windowGlobal8589934611/obj37, type release failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:70:19
+enableActorReleaser/</</releaseActorsEnhancer/<@resource://devtools/client/webconsole/enhancers/actor-releaser.js:40:33
+releaseActorsEnhancer@resource://devtools/client/webconsole/enhancers/actor-releaser.js:30:40
+batchingReducer@resource://devtools/client/webconsole/enhancers/batching.js:21:18
+messagesCacheClearingEnhancer@resource://devtools/client/webconsole/enhancers/message-cache-clearing.js:17:15
+ensureErrorReportingEnhancer@resource://devtools/client/webconsole/enhancers/css-error-reporting.js:21:15
+dispatch@resource://devtools/client/shared/vendor/redux.js:256:22
+eventTelemetryMiddleware/</<@resource://devtools/client/webconsole/middleware/event-telemetry.js:25:21
+historyPersistenceMiddleware/</<@resource://devtools/client/webconsole/middleware/history-persistence.js:37:21
+thunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:18:11
+ignore/</<@resource://devtools/client/shared/redux/middleware/ignore.js:31:12
+createPerformanceMarkerMiddleware/</</<@resource://devtools/client/shared/redux/middleware/performance-marker.js:50:28
+dispatchMessagesClear@resource://devtools/client/webconsole/webconsole-wrapper.js:173:20
+dispatchTabWillNavigate@resource://devtools/client/webconsole/webconsole-wrapper.js:255:12
+handleWillNavigate@resource://devtools/client/webconsole/webconsole-ui.js:432:18
+handleDocumentEvent@resource://devtools/client/webconsole/webconsole-ui.js:397:12
+_onResourceAvailable@resource://devtools/client/webconsole/webconsole-ui.js:450:14
+_notifyWatchers@resource://devtools/shared/commands/resource/resource-command.js:792:24
+_onResourceAvailable@resource://devtools/shared/commands/resource/resource-command.js:628:12
+
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+[GFX1]: Failed to create Pbuffer surface error: 0x3003 Size : Size(687,500)
+WebGL(0000018B83686200)::LoseContext(0)
+JavaScript warning: , line 0: WebGL warning: <Present>: Swap chain surface creation failed.
+JavaScript warning: , line 0: WebGL context was lost.
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653904739286	Marionette	INFO	Stopped listening on port 51855
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1655900584161	geckodriver	INFO	Listening on 127.0.0.1:64700
+1655900587251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile8Xj0yc"
+1655900587630	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64701
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofile8Xj0yc\\search.json.mozlz4", (void 0)))
+1655900590043	Marionette	INFO	Listening on port 64727
+DevTools listening on ws://localhost:64701/devtools/browser/1843a07a-fe03-4039-b7b1-f96cb0683498
+Read port: 64727
+1655900590256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1655901951747	Marionette	INFO	Stopped listening on port 64727
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 32968, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1656245722892	geckodriver	INFO	Listening on 127.0.0.1:65012
+1656245725996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileGcaZO6"
+1656245726502	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65013
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rory\\AppData\\Local\\Temp\\rust_mozprofileGcaZO6\\search.json.mozlz4", (void 0)))
+1656245729013	Marionette	INFO	Listening on port 65055
+Read port: 65055
+1656245729057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:65013/devtools/browser/f56908e5-f3de-43b9-812e-443a0d397182
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1656249693078	Marionette	INFO	Stopped listening on port 65055
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

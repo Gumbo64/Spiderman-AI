@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"No description"</Description>
+      <VariableType>Double</VariableType>
+      <Address>1AE6FC65C60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>1C8BA584FD0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>203EB50F600</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Score"</Description>
+      <LastState Value="416" RealAddress="139E38317A0"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>"THREADSTACK0"-00000EE0</Address>
+      <Offsets>
+        <Offset>190</Offset>
+        <Offset>40</Offset>
+        <Offset>330</Offset>
+        <Offset>90</Offset>
+        <Offset>248</Offset>
+        <Offset>28</Offset>
+        <Offset>530</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>26284A198A0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"pointerscan result"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>"ruffle.exe"+00A2FC78</Address>
+      <Offsets>
+        <Offset>190</Offset>
+        <Offset>40</Offset>
+        <Offset>330</Offset>
+        <Offset>90</Offset>
+        <Offset>248</Offset>
+        <Offset>98</Offset>
+        <Offset>28</Offset>
+        <Offset>0</Offset>
+        <Offset>98</Offset>
+        <Offset>1E0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"New Score"</Description>
+      <LastState Value="416" RealAddress="139E38317A0"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>"ruffle.exe"+00A2DB08</Address>
+      <Offsets>
+        <Offset>190</Offset>
+        <Offset>40</Offset>
+        <Offset>330</Offset>
+        <Offset>90</Offset>
+        <Offset>248</Offset>
+        <Offset>28</Offset>
+        <Offset>530</Offset>
+        <Offset>78</Offset>
+        <Offset>1B0</Offset>
+        <Offset>10</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Info about this table:
+</Comments>
+</CheatTable>

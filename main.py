@@ -55,6 +55,6 @@ time.sleep(2)
 screenshot_game()
 # click_retry()
 while True:
-    time.sleep(0.5)
-    click_coord(500,50)
+    time.sleep(0.1)
+    # click_coord(500,50)
     # frame_forward(5)
