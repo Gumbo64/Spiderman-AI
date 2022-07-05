@@ -4,21 +4,23 @@ from pymem import *
 from pymem.process import *
 
 import os
-import subprocess
-subprocess.Popen(["ruffle.exe", "spiderman.swf"])
+# import subprocess
+# subprocess.Popen(["ruffle.exe", "spiderman.swf"])
 # os.system('cmd /c "./'+os.getcwd()+'./ruffle.exe spiderman.swf"')
 
 
-sleep(4)
+# sleep(4)
 
-mem = Pymem("ruffle.exe")
+# mem = Pymem("ruffle.exe")
 
-module = module_from_name(mem.process_handle,"ruffle.exe").lpBaseOfDll
-print(module)
-offsets = [0x190,0x40,0x330,0x90,0x248,0x28,0x530,0x78,0x1B0,0x10]
-offsets.reverse()
+# module = module_from_name(mem.process_handle,"ruffle.exe").lpBaseOfDll
+# print(module)
+# offsets = [0x190,0x40,0x330,0x90,0x248,0x28,0x530,0x78,0x1B0,0x10]
+# offsets.reverse()
 
-def getPtrAddr(address, offsets):
+def getPtrAddr(mem,address):
+    offsets = [0x190,0x40,0x330,0x90,0x248,0x28,0x530,0x78,0x1B0,0x10]
+    offsets.reverse()
     addr = mem.read_longlong(address)
     for offset in offsets:
         if offset != offsets[-1]:
@@ -27,26 +29,30 @@ def getPtrAddr(address, offsets):
     return addr
 
 
-def get_score():
-    score_addr = getPtrAddr(module + 0x00A2DB08,offsets)
+def get_score(mem,module):
+    score_addr = getPtrAddr(mem,module + 0x00A2DB08)
     score = mem.read_double(score_addr)
     return score
 
-lastscore = 0
-counter=0
-while True:
-    sleep(0.01)
-    try:
-        score = get_score()
-        if(score == lastscore):
-            raise Exception("a")
-        print(score)
-        print(counter)
-        counter=0
+if __name__ == "__main__":
+    mem = Pymem("ruffle.exe")
+    module = module_from_name(mem.process_handle,"ruffle.exe").lpBaseOfDll
+    lastscore = 0
+    counter=0
+    while True:
+        sleep(0.01)
+        try:
+            score = get_score(mem,module)
+            if(score == lastscore or score % 1 != 0):
+                raise Exception("a")
+            print(score)
+            print(counter)
+            counter=0
+            
+        except:
+            counter+=1
+            score = lastscore
+            # print(counter)
         
-    except:
-        counter+=1
-        score = lastscore
-        # print(counter)
-    
-    lastscore=score
+        lastscore=score
+
