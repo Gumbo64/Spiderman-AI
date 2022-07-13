@@ -1,0 +1,5 @@
+taichi>=0.8.1
+matplotlib
+numpy
+opencv-python
+scipy

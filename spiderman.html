@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=2000,height=2000, initial-scale=1" >
+
 <body id="bigbody">
 <style>
     html, body {
@@ -32,18 +34,30 @@
 </script> 
 
 <div id="gamers" width=100% height = 100%></div>
-<button id="pause" type="button" onclick="pausegame()">Pause</button>
-<button id="play" type="button" onclick="playgame()">Play</button>
-<button id="frameforward" type="button" onclick="frameforward()">Frame Forward</button>
+    <button id="pause" type="button" onclick="pausegame()">Pause</button>
+    <button id="play" type="button" onclick="playgame()">Play</button>
+    <button id="frameforward" type="button" onclick="frameforward()">Frame Forward</button>
  
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
+        player.config = {
+            letterbox: "off"
+            // and so on...
+        };
+        
         const container = document.getElementById("gamers");
         container.appendChild(player);
-        player.load("spiderman.swf");
+        player.load("moddedspiderman.swf");
+        
+
+
+        // originally 1100x800
+
+        player.style.width="2560px"
+        player.style.height="600px"
 
 
 

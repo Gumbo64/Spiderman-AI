@@ -1,5 +1,5 @@
 # environment
-import pydirectinput
+from click import option
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -7,28 +7,28 @@ import time
 from gym import Env
 from gym.spaces import Box, Discrete
 
-# memory
-from importlib.util import module_from_spec
-from time import sleep
-from pymem import *
-from pymem.process import *
-from memreader import get_score
+
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.service import Service
+
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
+
 
 # screenshots
-from windowcapture import WindowCapture
 import os 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-
-# open game
-import subprocess
-
-import win32gui
-import win32con
+os.chdir(dir_path)
 
 
 
 class Spiderman_ENV(Env):
-	def __init__(self):
+	def __init__(self,headless):
 		super().__init__()
 		# Setup spaces
 		
@@ -60,16 +60,31 @@ class Spiderman_ENV(Env):
 
 
 
-		subprocess.Popen(["ruffle.exe", "moddedspiderman.swf","--width",str(self.window_width),"--height",str(self.window_height)])
-		time.sleep(3)
-		self.last_score=250
+		options = FirefoxOptions()
+		if headless==True:
+			options.add_argument("--headless")
+		self.driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()),options=options)
+
+		# self.driver = webdriver.Chrome('./chromedriver')
+
+		self.driver.set_window_size(1200, 1000)
+		# driver.get("file:///home/rory/Desktop/Github%20repos/Spiderman-AI/spiderman.html")
+		self.driver.get("file://J:/Github%20repos/Spiderman-AI/spiderman.html")
 		
-		
-		self.cap = WindowCapture('Ruffle - moddedspiderman.swf')
+
+		time.sleep(10)
+		self.last_score=295
+
 
 	def clickgame(self,x,y):
-		screen_x,screen_y = self.cap.get_screen_position([x,y])
-		pydirectinput.click(x=screen_x, y=screen_y)
+		el=self.driver.find_element(By.TAG_NAME,"body")
+		action = webdriver.common.action_chains.ActionChains(self.driver)
+
+
+		# selenium had a weird offset
+		action.move_to_element_with_offset(el, x-594, y-412)
+		action.click()
+		action.perform()
 
 
 
@@ -83,17 +98,18 @@ class Spiderman_ENV(Env):
 		observation = self.get_observation()
 		done = self.get_done(observation) 
 		reward = self.get_reward()
+		# print(reward)
 		info = {}
 		return observation, reward, done, info
 		
 	
 	def reset(self):
 		time.sleep(0.1)
-		self.mem_counter=0
 		self.clickgame(540, 670)
 		time.sleep(0.3)
 		self.clickgame(270, 560)
 		time.sleep(0.3)
+		self.last_score=295
 		return self.get_observation()
 		
 	# def render(self):
@@ -102,17 +118,24 @@ class Spiderman_ENV(Env):
 	# 		self.close()
 		 
 	def close(self):
-		cv2.destroyAllWindows()
+		self.driver.close()
+		self.driver.quit()
+		print('im dead')
 	
+	def game_screenshot(self):
+		el=self.driver.find_element(By.CSS_SELECTOR,"#gamers > ruffle-player:nth-child(1)")
+		el.screenshot("screenshot.png")
+		return cv2.imread("screenshot.png")
+
 	def get_observation(self):
 		# get an updated image of the game
-		self.screenshot = self.cap.get_screenshot()
+		self.screenshot = self.game_screenshot()
 		
 		# cropped_image = screenshot[0:360, 72:568]
 		lowres_image = cv2.resize(self.screenshot, (110, 80))
-		(thresh, blackAndWhiteImage) = cv2.threshold(lowres_image, 1, 255, cv2.THRESH_BINARY)
-		cv2.imwrite("game.png", blackAndWhiteImage)  
-		cv2.cvtColor(blackAndWhiteImage, cv2.COLOR_BGR2GRAY)
+		greyscale_image = cv2.cvtColor(lowres_image, cv2.COLOR_BGR2GRAY)
+		(thresh, blackAndWhiteImage) = cv2.threshold(greyscale_image, 1, 255, cv2.THRESH_BINARY)
+		# cv2.imwrite("game.png", blackAndWhiteImage)  
 		return np.resize(blackAndWhiteImage, (1,80,110))
 
 
@@ -127,8 +150,9 @@ class Spiderman_ENV(Env):
 		res = A[A != 0]
 		res = (res-1).tolist()
 		score = int(''.join(map(str, map(int, res))))
-		reward = score - self.last_score
+		reward = max(score - self.last_score,0)
 		self.last_score=score
+		# print(reward)
 		return reward
 	# def get_score(self):
 	# 	return self.lastscore
@@ -139,3 +163,13 @@ class Spiderman_ENV(Env):
 			return True
 		return False
 	
+
+if __name__ == "__main__":
+	env = Spiderman_ENV()
+	# print('starting wait')
+	# time.sleep(2)
+	print('wait done')
+	env.reset()
+	# while True:
+	# 	env.clickgame(540,670)
+	# 	time.sleep(1)
