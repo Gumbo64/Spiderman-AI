@@ -21,19 +21,27 @@ steps = 1024
 gravity = 9.8
 target = [0.3, 0.6]
 
+# predefine different 'types' in their taichi forms
 scalar = lambda: ti.field(dtype=real)
 vec = lambda: ti.Vector.field(dim, dtype=real)
 mat = lambda: ti.Matrix.field(dim, dim, dtype=real)
 
+# x is stored in 3D, 2 dimensional coords over (1 dimensional) time
 x = ti.Vector.field(dim,
                     dtype=real,
                     shape=(max_steps, n_particles),
                     needs_grad=True)
+
+# average position of particles (x)
 x_avg = ti.Vector.field(dim, dtype=real, shape=(), needs_grad=True)
+
+# velocities of particles (x) over time
 v = ti.Vector.field(dim,
                     dtype=real,
                     shape=(max_steps, n_particles),
                     needs_grad=True)
+
+
 grid_v_in = ti.Vector.field(dim,
                             dtype=real,
                             shape=(max_steps, n_grid, n_grid),
@@ -55,16 +63,24 @@ F = ti.Matrix.field(dim,
                     dtype=real,
                     shape=(max_steps, n_particles),
                     needs_grad=True)
+
+# initial velocity that all particles should have
 init_v = ti.Vector.field(dim, dtype=real, shape=(), needs_grad=True)
+
+# our loss value (negative distance. minimise -distance = maximise +distance)
 loss = ti.field(dtype=real, shape=(), needs_grad=True)
 
 
+
+# reset velocities to init_v (default velocity)
 @ti.kernel
 def set_v():
     for i in range(n_particles):
         v[0, i] = init_v[None]
 
 
+# points to grid?
+# guessing that f is time?
 @ti.kernel
 def p2g(f: ti.i32):
     for p in range(n_particles):
@@ -109,6 +125,8 @@ def grid_op(f: ti.i32):
         grid_v_out[f, i, j] = v_out
 
 
+# grid to points?
+# guessing that f is time?
 @ti.kernel
 def g2p(f: ti.i32):
     for p in range(n_particles):
@@ -136,7 +154,7 @@ def compute_x_avg():
     for i in range(n_particles):
         x_avg[None] += (1 / n_particles) * x[steps - 1, i]
 
-
+# ez
 @ti.kernel
 def compute_loss():
     dist = (x_avg[None] - ti.Vector(target))**2

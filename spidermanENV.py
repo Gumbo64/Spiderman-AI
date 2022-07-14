@@ -135,7 +135,7 @@ class Spiderman_ENV(Env):
 		lowres_image = cv2.resize(self.screenshot, (110, 80))
 		greyscale_image = cv2.cvtColor(lowres_image, cv2.COLOR_BGR2GRAY)
 		(thresh, blackAndWhiteImage) = cv2.threshold(greyscale_image, 1, 255, cv2.THRESH_BINARY)
-		# cv2.imwrite("game.png", blackAndWhiteImage)  
+		cv2.imwrite("game.png", blackAndWhiteImage)  
 		return np.resize(blackAndWhiteImage, (1,80,110))
 
 

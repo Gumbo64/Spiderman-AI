@@ -23,6 +23,7 @@ def advance():
     for i in x:
         # accelerate in the direction that decreases potential energy (u)
         v[i] += dt *-x.grad[i]  # dv/dt = -dU/dx
+
     for i in x:
         x[i] += dt * v[i]  # dx/dt = v
 
